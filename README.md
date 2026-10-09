@@ -18,7 +18,7 @@ As per the design guide this project has threshold setting and voltage and curre
 1. Clone the repository:
    ```bash
    git clone https://github.com/Aniruddh5502/Assesment-Project.git
-   cd own
+   cd Assesment-Project
    ```
 
 2. Install dependencies:
