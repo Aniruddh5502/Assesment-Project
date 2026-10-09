@@ -4,6 +4,9 @@
 ## INTRODUCTION
 As per the design guide this project has threshold setting and voltage and current measurement functionality, and depending on the ADC reading for Voltage or Current if they exceed the threshold rating then it trigegrs/flips the relay pin to low(disconnecting). And after that even if the voltage or current rating in supply line comes below the threshold limit. For safety reason I am made them not to trigger the RELAY to CONNECTED or HIGH state. After any surge current or voltage if the user wants to reset the RELAY PIN's STATE, then he can use RESET command.
 
+
+- [Report](report.md)
+
 ## Commands List
 ```text
 - THRESHOLD_VOLTAGE_0.00      Ex: 0.00 can be the threshold voltage value like 220.00   Unit(V)
